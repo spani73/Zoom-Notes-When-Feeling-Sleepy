@@ -9,8 +9,8 @@ import psutil
 process = "brave.exe"
 isthere = True
 
-src = r"C:\Users\SUBHANKAR\OneDrive\Desktop\project"
-dest = r"C:\Users\SUBHANKAR\OneDrive\Desktop\project\dir1"
+src = r"C:\Users\SUBHANKAR\OneDrive\Desktop\project utility 2\project"
+dest = r"C:\Users\SUBHANKAR\OneDrive\Desktop\project utility 2\project\dir1"
 count = 1
 while(isthere == True):
     isthere=False
@@ -45,7 +45,7 @@ while(isthere == True):
 
             if percentage>20.0:
                 os.chdir(src)
-                newsrc = r"C:\Users\SUBHANKAR\OneDrive\Desktop\project" + r"\shot" + str(count-1) + r".jpg"
+                newsrc = src + r"\shot" + str(count-1) + r".jpg"
                 shutil.move(newsrc, dest)
                 count = count + 1 
     if isfilethere == False:
