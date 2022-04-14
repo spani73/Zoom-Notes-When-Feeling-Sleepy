@@ -6,7 +6,7 @@ import time
 import os
 import shutil
 import psutil
-process = "brave.exe"
+process = "Zoom.exe"
 isthere = True
 
 src = r"C:\Users\SUBHANKAR\OneDrive\Desktop\project utility 2\project"
